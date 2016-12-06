@@ -1,0 +1,21 @@
+{
+  "name": "giscolab",
+  "description": "GISCoLab (Geosoftware II)",
+  "main": "index.html",
+  "authors": [
+    "Elisa Bender",
+    "Sophie Gehrke",
+    "Niklas Philippi",
+    "Timm Khuenel",
+    "Hans-Christian Lindner"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

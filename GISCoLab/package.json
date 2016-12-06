@@ -1,0 +1,36 @@
+{
+  "name": "giscolab",
+  "version": "0.0.1",
+  "description": "GISCoLab - Geosoftware II Project",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "bower": "^1.8.0",
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "express-jwt": "^5.1.0",
+    "express-session": "^1.14.2",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.17.2",
+    "mongoose": "^4.6.8",
+    "q": "^1.4.1",
+    "request": "^2.79.0",
+    "rootpath": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timmimim/GISCoLab.git"
+  },
+  "author": "Sophie Gehrke, Elisa Bender, Hans-Christian Lindner, Niklas Philippi, Timm Kühnel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Timmimim/GISCoLab/issues"
+  },
+  "homepage": "https://github.com/Timmimim/GISCoLab#readme"
+}
