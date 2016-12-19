@@ -1,0 +1,44 @@
+<div class="container">
+<nav class="navbar navbar-static-top"> <!-- Navbar -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form id="signin" class="navbar-form navbar-right" role="form" ng-submit="vm.onSubmitLogin()">
+                <div class="input-group">
+                    <span class="input-group-addon"></span>
+                    <input id="email" type="email" class="form-control" name="email" value="" placeholder="Email Address" ng-model="vm.credentials.email">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-addon"></span>
+                    <input id="password" type="password" class="form-control" name="password" value="" placeholder="Password" ng-model="vm.credentials.password">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+
+        </div>
+</nav> <!-- Navbar ende -->
+</div>
+
+
+<div class="row" style="margin-top: 40px">
+    <div class="col-xs-2"></div>
+    <div class="col-xs-5">      <!-- GISCoLab Schriftzug -->
+        <h1 style="margin-top: 100px; font-size: 100px; color: white">GISCoLab</h1>
+    </div>
+        <div class="col-xs-3">
+            <div class="container" style="width: 100%">         <!-- Registrieren -->
+            <div class="jumbotron" style="background: rgb(255, 255, 255); background: rgba(255, 255, 255, 0.7); padding: 10px">
+                <form ng-submit="vm.onSubmitRegister()">
+                <h2 class="form-signin-heading"><b>Register!</b></h2>
+                <input id="userName" type="text" class="form-control" name="userName" value="" placeholder="UserName" ng-model="vm.credentials.userName">
+                <input style="margin-top: 1rem" id="emailregister" type="email" class="form-control" name="email" value="" placeholder="Email Adress" ng-model="vm.credentials.email">
+                <input style="margin-top: 1rem" id="passwordregister" type="password" class="form-control" name="password" value="" placeholder="Password" ng-model="vm.credentials.password">
+                <input style="margin-top: 1rem" id="firstName" type="text" class="form-control" name="firstName" value="" placeholder="First name" ng-model="vm.credentials.firstName">
+                <input style="margin-top: 1rem" id="lastName" type="text" class="form-control" name="lastName" value="" placeholder="lastName" ng-model="vm.credentials.lastName">
+                <button type="submit" class="btn btn-success" style="width: 60%; margin-top: 1rem">Register!</button>
+                </form>
+            </div>
+            </div>
+        </div>      <!-- Registrierung ende -->
+    <div class="col-xs-2"></div>
+</div>

@@ -1,0 +1,21 @@
+{
+  "name": "GISCoLab",
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular": "1.5",
+    "bootstrap": "~3.3",
+    "jquery": "~1.12.0",
+    "angular-ui-router": "~0.2.18",
+    "angular-route": "1.5"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
